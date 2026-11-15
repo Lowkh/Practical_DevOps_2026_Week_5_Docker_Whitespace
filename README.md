@@ -71,11 +71,11 @@ If you choose to use an AI/LLM tool during this practical, you should also be ab
 | Terminal | PowerShell |
 | Text editor | Notepad |
 | Other tools | Web browser and Microsoft Word |
-| Optional tool | An AI/LLM tool |
+| Optional tool | An AI/LLM tool permitted by the school |
 | Guided activities | G1–G6 |
 | Applied assessment | Parts A and B |
 | Submission | One Word document |
-| Evidence | Screenshots of your own execution |
+| Evidence | Screenshots of your own execution with visible individual identification |
 | Written components | Approximately 100–150 words of reflection and a brief AI/LLM usage declaration |
 
 ### Required Route
@@ -168,13 +168,49 @@ Save regularly throughout the practical.
 
 ### Screenshot Expectations
 
-- Capture your own commands and results.
-- Keep relevant text readable.
-- Include the browser address when showing a website.
+Each screenshot must show your own work and include your student initials or another identifier approved by the school.
+
+Use your initials consistently throughout the practical. Avoid displaying your full student ID or unrelated personal information unless required by the school.
+
+#### Terminal Screenshots
+
+Before capturing a PowerShell screenshot, display your initials:
+
+```powershell
+Write-Output "Student initials: AB"
+```
+
+Replace `AB` with your initials.
+
+Then run the relevant command. Keep your initials, the command and its result visible in the screenshot.
+
+If the output is long, capture additional screenshots as needed. Display your initials again where necessary so that each screenshot includes identification.
+
+#### Browser Screenshots
+
+For your custom websites in G5 and assessment Part A, keep the following visible:
+
+- Your initials within the webpage.
+- The browser address.
+- The required webpage content.
+
+For the default Nginx page in G3, arrange the browser and PowerShell windows together. Show your initials and the relevant container command or listing in PowerShell, alongside the browser page and its address.
+
+#### Docker Desktop or Other Screenshots
+
+If a screenshot is needed from Docker Desktop or another interface that does not display your initials, include a PowerShell window beside it showing your initials and a relevant command or result.
+
+#### Evidence Quality
+
+- Capture your actual execution.
+- Keep your identification, commands and results readable.
 - Include relevant container, image or volume names.
 - Use multiple screenshots when one image cannot show the required sequence clearly.
-- Crop unrelated private information without changing the meaning of the evidence.
-- Use screenshots from actual execution, not generated or reconstructed output.
+- Crop unrelated private information without removing required identification or context.
+- Do not add your initials afterwards using an image editor.
+- Do not submit generated, reconstructed or misleadingly edited output.
+
+Visible identification supports attribution, but the screenshot must also show the relevant technical work. Initials alone do not demonstrate completion.
 
 Short captions are optional. A separate written explanation for every screenshot is not required.
 
@@ -265,7 +301,7 @@ The remaining 45 minutes are allocated to assessment Parts A and B, your reflect
 2. Run commands in PowerShell unless instructed otherwise.
 3. Compare your actual result with the expected result.
 4. If the result differs, use Section 16 to investigate one check at a time.
-5. Capture the required screenshots while the relevant results are visible.
+5. Capture the required screenshots while the relevant results are visible, including your initials or another identifier approved by the school in each screenshot.
 6. Paste the screenshots under the matching heading in your Word document.
 7. Save your document before continuing.
 
@@ -283,6 +319,7 @@ The learning checkpoint in G5 can be completed with or without AI.
 - [ ] I understand that AI use is optional and that responsibilities apply if I use it.
 - [ ] My Word document is prepared with headings for G1–G6.
 - [ ] I know where to place my screenshot evidence.
+- [ ] I will include my initials or another identifier approved by the school in every screenshot.
 - [ ] I will use my initials in website content and stored messages.
 - [ ] I understand that incomplete work should be documented honestly.
 
@@ -339,11 +376,14 @@ Only install or update system components when authorised.
 
 ### 6.4 Verify Docker
 
-Open a new PowerShell window:
+Open a new PowerShell window. Display your initials before running commands you will capture:
 
 ```powershell
+Write-Output "Student initials: AB"
 docker version
 ```
+
+Replace `AB` with your initials.
 
 Expected result:
 
@@ -373,6 +413,8 @@ Capture:
 
 - Successful `docker version` output showing Client and Server information.
 - The successful `hello-world` result.
+
+Include your initials or another identifier approved by the school in every screenshot. Display your initials again before rerunning a check if needed.
 
 Place the screenshots under G1 in your Word document.
 
@@ -449,7 +491,7 @@ Capture:
 - The workspace folders.
 - The image listing showing `nginx` with the `alpine` tag.
 
-Place the screenshots under G2.
+Include your initials or another identifier approved by the school in every screenshot. Place the screenshots under G2.
 
 ---
 
@@ -503,7 +545,9 @@ Capture:
 - `docker ps` showing the container and port mapping.
 - The welcome page with the browser address visible.
 
-Place the screenshots under G3.
+For the browser evidence, arrange PowerShell beside the browser. Keep your initials and the relevant container command or listing visible alongside the page.
+
+Include your initials or another identifier approved by the school in every screenshot. Place the screenshots under G3.
 
 ---
 
@@ -582,7 +626,7 @@ Capture enough output to show:
 - The existing container started again.
 - The container was removed.
 
-Place the screenshots under G4.
+Include your initials or another identifier approved by the school in every screenshot. Place the screenshots under G4.
 
 ---
 
@@ -754,6 +798,8 @@ Capture:
 - The running `dop-site` container.
 - The custom webpage with your initials and browser address visible.
 
+Include your initials or another identifier approved by the school in every screenshot. For terminal evidence, keep your identification visible alongside the commands and results.
+
 Place the screenshots under G5.
 
 ---
@@ -853,6 +899,8 @@ Capture a sequence showing:
 2. Removal of `dop-store-1`.
 3. The same message read through `dop-store-2`.
 
+Include your initials or another identifier approved by the school in every screenshot, including screenshots of removal or inspection commands.
+
 Place the screenshots under G6.
 
 ---
@@ -863,7 +911,7 @@ Complete both parts.
 
 This is a guided application of the skills practised above. Use the supplied steps, but carry out and verify the work yourself.
 
-AI assistance is optional and permitted within the responsibilities in Section 5. Your screenshots must show your own execution.
+AI assistance is optional and permitted within the responsibilities in Section 5. Your screenshots must show your own execution and include your initials or another identifier approved by the school.
 
 ### Part A — Build and Run an Assessment Website
 
@@ -945,7 +993,7 @@ Capture:
 - The running assessment container and port mapping.
 - The webpage with your initials, completed learning sentence and browser address.
 
-Place the screenshots under Assessment Part A.
+Include your initials or another identifier approved by the school in every screenshot. Place the screenshots under Assessment Part A.
 
 ### Part B — Preserve a Message Across Container Replacement
 
@@ -1006,6 +1054,8 @@ Capture:
 - Removal of the original container.
 - Retrieval of the unchanged message through the replacement container.
 
+Include your initials or another identifier approved by the school in every screenshot, including screenshots of removal or inspection commands.
+
 Place the screenshots under Assessment Part B.
 
 ---
@@ -1063,6 +1113,8 @@ No prompt transcript or conversation history is required.
 | Assessment Part B | Original message, container replacement and retrieval from the same named volume | 15 |
 | Reflection | Specific Docker learning, verification of understanding or a proposed solution, and a meaningful limitation or improvement | 15 |
 | Total | | 100 |
+
+Screenshot evidence must meet the identification and quality requirements in Section 3.
 
 ### Reflection Criteria
 
@@ -1310,7 +1362,7 @@ Compare significant changes with official documentation.
 
 If an activity remains incomplete within the allocated time:
 
-1. Capture the actual error or current result.
+1. Capture the actual error or current result, including your initials or another identifier approved by the school.
 2. Place it under the relevant activity heading.
 3. Add a brief note identifying the unfinished step.
 4. Acknowledge any AI assistance you used.
@@ -1349,9 +1401,11 @@ A clear record of partial progress is more useful than an unsupported claim of c
 
 ### Document Quality
 
+- [ ] Every screenshot includes my initials or another identifier approved by the school, alongside the relevant work.
 - [ ] Screenshots are readable and placed under the correct headings.
 - [ ] Browser addresses and relevant resource names are visible.
 - [ ] Screenshots show my own execution.
+- [ ] My initials were visible during capture and were not added afterwards using an image editor.
 - [ ] Unrelated private information is excluded.
 - [ ] Any incomplete activities are identified honestly.
 - [ ] I am submitting one `.docx` file only.
