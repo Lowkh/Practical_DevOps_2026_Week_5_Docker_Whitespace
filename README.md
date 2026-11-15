@@ -5,7 +5,7 @@ Welcome to your Week 5 whitespace practical.
 
 In this guided, self-directed session, you will explore Docker containers, build a custom website image and investigate persistent storage.
 
-You may use an AI/LLM tool to support your learning, but AI use is optional. If you choose to use AI, you will practise evaluating its suggestions, verifying results and acknowledging its assistance.
+You may use an AI/LLM tool to support your learning, but AI use is optional. If you choose to use AI, practise evaluating its suggestions, verifying results and acknowledging its assistance.
 
 No prior Docker experience is required.
 
@@ -77,6 +77,8 @@ If you choose to use an AI/LLM tool during this practical, you should also be ab
 | Submission | One Word document |
 | Evidence | Screenshots of your own execution with visible individual identification |
 | Written components | Approximately 100–150 words of reflection and a brief AI/LLM usage declaration |
+
+Students work in Windows throughout this practical. Linux containers are run through Docker Desktop; students do not need to change their desktop operating system to Linux.
 
 ### Required Route
 
@@ -207,7 +209,7 @@ If a screenshot is needed from Docker Desktop or another interface that does not
 - Include relevant container, image or volume names.
 - Use multiple screenshots when one image cannot show the required sequence clearly.
 - Crop unrelated private information without removing required identification or context.
-- Do not add your initials afterwards using an image editor.
+- Do not add your initials or other identification afterwards using an image editor.
 - Do not submit generated, reconstructed or misleadingly edited output.
 
 Visible identification supports attribution, but the screenshot must also show the relevant technical work. Initials alone do not demonstrate completion.
@@ -301,7 +303,7 @@ The remaining 45 minutes are allocated to assessment Parts A and B, your reflect
 2. Run commands in PowerShell unless instructed otherwise.
 3. Compare your actual result with the expected result.
 4. If the result differs, use Section 16 to investigate one check at a time.
-5. Capture the required screenshots while the relevant results are visible, including your initials or another identifier that demonstrates the work is your own in each screenshot.
+5. Capture the required screenshots while the relevant results are visible. Each screenshot must include your initials or another identifier that demonstrates the work is your own.
 6. Paste the screenshots under the matching heading in your Word document.
 7. Save your document before continuing.
 
@@ -1104,24 +1106,39 @@ No prompt transcript or conversation history is required.
 
 ## 15. Assessment Criteria
 
-### Reflection Criteria
+Your work will be reviewed against the following criteria.
 
-| Criterion | Marks |
-| :--- | ---: |
-| Explains Docker learning using a specific practical example | 5 |
-| Explains how understanding or a proposed solution was checked using the guide, official documentation or an optional AI tool | 5 |
-| Identifies a meaningful limitation, safety consideration or improvement | 5 |
-| Total | 15 |
+| Component | Criteria |
+| :--- | :--- |
+| Guided activities G1–G4 | Demonstrates Docker readiness, workspace and image preparation, website execution and container lifecycle operations. |
+| Guided activity G5 | Demonstrates a successful custom image build, a running container and a personalised website displaying your initials. |
+| Guided activity G6 | Shows the original message, the named-volume mount and successful retrieval after container replacement without rewriting the message. |
+| Assessment Part A | Shows a successful image build, correct container execution, the required webpage content and clear verification evidence. |
+| Assessment Part B | Shows the original message, container replacement and retrieval of the unchanged message from the same named volume. |
+| Reflection | Explains specific Docker learning, how understanding or a proposed solution was verified, and a meaningful limitation or improvement. |
+| AI/LLM usage declaration | Accurately states whether AI was used and, if applicable, describes the assistance and how it was checked. |
+| Evidence quality | Provides readable screenshots with relevant commands, results and visible identification demonstrating that the work is your own. |
 
-Students are assessed on their technical work, judgement and verification.
+### Reflection Expectations
 
-Using AI does not earn additional marks, and choosing not to use AI does not reduce the marks available.
+Your reflection should:
 
-If AI is used, its assistance must be acknowledged accurately.
+- Explain one Docker concept using a specific example from your practical work.
+- Describe how you checked your understanding or a proposed solution using the guide, official documentation or an optional AI tool.
+- Identify a meaningful limitation, safety consideration or improvement.
+- Remain approximately 100–150 words.
 
-Include the brief AI declaration whether or not you used AI.
+### Evidence and Authenticity
 
-Where technical work remains incomplete, submit the actual error and available evidence. Do not claim successful execution that the evidence does not demonstrate.
+Screenshot evidence must meet the identification and quality requirements in Section 3.
+
+Each screenshot must include your initials or another identifier that demonstrates the work is your own, alongside the relevant technical work.
+
+AI use is optional. Your work will be reviewed against the same criteria whether or not you use AI.
+
+If you use AI, evaluate relevant suggestions, verify results and acknowledge the assistance accurately.
+
+Where technical work remains incomplete, submit the actual error and available evidence. Identify the unfinished step rather than claiming successful execution that the evidence does not demonstrate.
 
 ---
 
@@ -1393,7 +1410,7 @@ A clear record of partial progress is more useful than an unsupported claim of c
 - [ ] Screenshots are readable and placed under the correct headings.
 - [ ] Browser addresses and relevant resource names are visible.
 - [ ] Screenshots show my own execution.
-- [ ] My initials were visible during capture and were not added afterwards using an image editor.
+- [ ] My initials or other identification were visible during capture and were not added afterwards using an image editor.
 - [ ] Unrelated private information is excluded.
 - [ ] Any incomplete activities are identified honestly.
 - [ ] I am submitting one `.docx` file only.
