@@ -1,35 +1,37 @@
-# Week 5 Whitespace Practical: Docker and Responsible AI Use
+# Week 5 Whitespace Practical
+## Docker and Responsible AI Use
 
-Welcome to your Week 5 whitespace practical.
-
-In this guided, self-directed session, you will explore Docker containers, build a custom website image, investigate persistent storage and practise using AI responsibly.
+A guided, self-directed practical on Docker containers, custom images, persistent storage and the responsible use of AI.
 
 No prior Docker experience is required.
 
-> Educational use: This practical uses simplified examples for learning on an authorised computer. The examples are not production deployment instructions. Use only your own practice resources, follow institutional policies and review commands before running them.
+> **Educational use**  
+> This practical uses simplified examples for learning on an authorised computer. The examples are not production deployment instructions. Use only your own practice resources, follow the school’s policies and review commands before running them.
+
+---
 
 ## Contents
 
-- [1. Learning Outcomes](#1-learning-outcomes)
-- [2. Practical Overview](#2-practical-overview)
-- [3. Submission Requirements](#3-submission-requirements)
-- [4. Working Safely](#4-working-safely)
-- [5. Using AI Responsibly](#5-using-ai-responsibly)
-- [Guided Activities](#guided-activities)
-- [6. G1 — Install or Verify Docker Desktop](#6-g1--install-or-verify-docker-desktop)
-- [7. G2 — Prepare the Workspace and Download an Image](#7-g2--prepare-the-workspace-and-download-an-image)
-- [8. G3 — Run a Containerised Website](#8-g3--run-a-containerised-website)
-- [9. G4 — Inspect and Manage a Container](#9-g4--inspect-and-manage-a-container)
-- [10. G5 — Build a Custom Website Image](#10-g5--build-a-custom-website-image)
-- [11. G6 — Demonstrate Named-Volume Persistence](#11-g6--demonstrate-named-volume-persistence)
-- [12. Small Applied Practical Assessment](#12-small-applied-practical-assessment)
-- [13. Reflection](#13-reflection)
-- [14. AI/LLM Usage Declaration](#14-aillm-usage-declaration)
-- [15. Assessment Criteria](#15-assessment-criteria)
-- [16. Troubleshooting and Using AI Effectively](#16-troubleshooting-and-using-ai-effectively)
-- [17. Final Submission Checklist](#17-final-submission-checklist)
-- [18. After Capturing Your Evidence](#18-after-capturing-your-evidence)
-- [Official Documentation](#official-documentation)
+1. [Learning Outcomes](#1-learning-outcomes)
+2. [Practical Overview](#2-practical-overview)
+3. [Submission Requirements](#3-submission-requirements)
+4. [Working Safely](#4-working-safely)
+5. [Using AI Responsibly](#5-using-ai-responsibly)
+6. [Guided Activities](#guided-activities)
+   - [G1 — Install or Verify Docker Desktop](#6-g1--install-or-verify-docker-desktop)
+   - [G2 — Prepare the Workspace and Download an Image](#7-g2--prepare-the-workspace-and-download-an-image)
+   - [G3 — Run a Containerised Website](#8-g3--run-a-containerised-website)
+   - [G4 — Inspect and Manage a Container](#9-g4--inspect-and-manage-a-container)
+   - [G5 — Build a Custom Website Image](#10-g5--build-a-custom-website-image)
+   - [G6 — Demonstrate Named-Volume Persistence](#11-g6--demonstrate-named-volume-persistence)
+7. [Small Applied Practical Assessment](#12-small-applied-practical-assessment)
+8. [Reflection](#13-reflection)
+9. [AI/LLM Usage Declaration](#14-aillm-usage-declaration)
+10. [Assessment Criteria](#15-assessment-criteria)
+11. [Troubleshooting and Using AI Effectively](#16-troubleshooting-and-using-ai-effectively)
+12. [Final Submission Checklist](#17-final-submission-checklist)
+13. [After Capturing Your Evidence](#18-after-capturing-your-evidence)
+14. [Official Documentation](#official-documentation)
 
 ---
 
@@ -53,7 +55,7 @@ By the end of this practical, you should be able to:
 ## 2. Practical Overview
 
 | Item | Details |
-|---|---|
+| :--- | :--- |
 | Module session | Week 5 whitespace practical |
 | Format | Guided self-learning activities followed by a small applied practical assessment |
 | Total time | 180 minutes |
@@ -92,7 +94,7 @@ Finish your reflection, declaration and submission checks
 ### Time Allocation
 
 | Activity | Minutes |
-|---|---:|
+| :--- | ---: |
 | G1: Installation and readiness checks | 45 |
 | G2: Workspace and image preparation | 10 |
 | G3: Run a containerised website | 15 |
@@ -147,7 +149,7 @@ AI/LLM Usage Declaration
 
 Include your name, student ID and class under Student Details.
 
-Save using your institution’s naming convention. If none is specified, use:
+Save using the school’s naming convention. If none is specified, use:
 
 ```text
 StudentID_Week5_Docker_Practical.docx
@@ -174,7 +176,7 @@ Short captions are optional. A separate written explanation for every screenshot
 During this practical:
 
 - Use only a computer and account you are authorised to use.
-- Follow institutional installation, security and AI-use policies.
+- Follow the school’s installation, security and AI-use policies.
 - Use student initials in website content and stored messages.
 - Keep passwords, tokens and unrelated personal information out of files, screenshots and AI prompts.
 - Review commands that remove containers or data before running them.
@@ -213,7 +215,7 @@ Acknowledge the assistance
 ### Your Responsibilities
 
 | Responsibility | What it means here |
-|---|---|
+| :--- | :--- |
 | Ask clearly | Include the relevant activity, environment, command and actual result. |
 | Protect information | Remove passwords, tokens, student identifiers and unrelated private content before sharing. |
 | Review critically | Treat the response as a suggestion to evaluate. |
@@ -237,7 +239,7 @@ These activities prepare you for the applied assessment in Section 12.
 ### Activity Summary
 
 | Activity | Focus | Expected Outcome | Time |
-|---|---|---|---:|
+| :--- | :--- | :--- | ---: |
 | G1 — Installation and Readiness | Install or verify Docker Desktop and run a test container | Docker connects to its engine and runs `hello-world` | 45 minutes |
 | G2 — Workspace and Image | Create the working folders and download `nginx:alpine` | Your workspace is ready and the image is available locally | 10 minutes |
 | G3 — Containerised Website | Run Nginx with a local port mapping | The welcome page is accessible in your browser | 15 minutes |
@@ -306,7 +308,7 @@ If Docker Desktop is already installed, proceed to Section 6.3.
 4. Use the WSL 2 backend where appropriate for your authorised environment.
 5. Complete any required restart.
 6. Open Docker Desktop.
-7. Review the displayed terms and follow your institution’s licensing arrangements.
+7. Review the displayed terms and follow the school’s licensing arrangements.
 8. Wait for the Docker engine to become ready.
 
 Installation screens may vary by version. Follow the official instructions rather than expecting every screen to match this guide exactly.
@@ -424,7 +426,7 @@ docker image ls nginx
 ### Key Terms
 
 | Term | Meaning in this practical |
-|---|---|
+| :--- | :--- |
 | Image | The packaged template used to create containers |
 | Container | An instance created from an image |
 | `nginx` | The web server used for the website activities |
@@ -454,7 +456,7 @@ docker run -d --name dop-demo -p 127.0.0.1:8080:80 nginx:alpine
 ### Understand the Command
 
 | Component | Purpose |
-|---|---|
+| :--- | :--- |
 | `docker run` | Creates and starts a container |
 | `-d` | Runs it in the background |
 | `--name dop-demo` | Gives the container a recognisable name |
@@ -648,7 +650,7 @@ index.html
 ### 10.3 Understand the Dockerfile
 
 | Instruction | Purpose |
-|---|---|
+| :--- | :--- |
 | `FROM` | Selects the starting image |
 | `COPY` | Copies the website into the image |
 | `CMD` | Specifies the default command for containers created from the image |
@@ -1039,7 +1041,7 @@ No prompt transcript or conversation history is required.
 ## 15. Assessment Criteria
 
 | Component | Criteria | Marks |
-|---|---|---:|
+| :--- | :--- | ---: |
 | Guided activities G1–G4 | Evidence of readiness, image preparation, website execution and container lifecycle operations | 20 |
 | Guided activity G5 | Custom image build, running container and personalised website | 15 |
 | Guided activity G6 | Original message, named-volume mount and successful retrieval after container replacement | 15 |
@@ -1051,7 +1053,7 @@ No prompt transcript or conversation history is required.
 ### Reflection Criteria
 
 | Criterion | Marks |
-|---|---:|
+| :--- | ---: |
 | Explains Docker learning using a specific practical example | 5 |
 | Explains evaluation and verification of AI advice, or another source where AI was unavailable | 5 |
 | Identifies a meaningful limitation, safety consideration or improvement | 5 |
@@ -1106,7 +1108,7 @@ If the message remains, use the exact error when consulting the official install
 
 1. Open Docker Desktop.
 2. Wait until the engine is ready.
-3. Run:
+3. Run `docker version`:
 
 ```powershell
 docker version
@@ -1349,7 +1351,7 @@ docker stop dop-assess-store-2
 
 Run only the commands for containers that exist in your environment.
 
-Keep the containers, images and named volumes until your evidence is complete and any institutional retention instructions have been met.
+Keep the containers, images and named volumes until your evidence is complete and any retention instructions issued by the school have been met.
 
 Removing a named volume deletes its stored data. Volume removal is separate from container removal.
 
