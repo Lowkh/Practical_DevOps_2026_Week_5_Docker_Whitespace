@@ -71,7 +71,7 @@ If you choose to use an AI/LLM tool during this practical, you should also be ab
 | Terminal | PowerShell |
 | Text editor | Notepad |
 | Other tools | Web browser and Microsoft Word |
-| Optional tool | An AI/LLM tool permitted by the school |
+| Optional tool | An AI/LLM tool |
 | Guided activities | G1–G6 |
 | Applied assessment | Parts A and B |
 | Submission | One Word document |
