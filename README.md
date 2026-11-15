@@ -1104,18 +1104,6 @@ No prompt transcript or conversation history is required.
 
 ## 15. Assessment Criteria
 
-| Component | Criteria | Marks |
-| :--- | :--- | ---: |
-| Guided activities G1–G4 | Evidence of readiness, image preparation, website execution and container lifecycle operations | 20 |
-| Guided activity G5 | Custom image build, running container and personalised website | 15 |
-| Guided activity G6 | Original message, named-volume mount and successful retrieval after container replacement | 15 |
-| Assessment Part A | Correct build and execution, required webpage content and clear verification evidence | 20 |
-| Assessment Part B | Original message, container replacement and retrieval from the same named volume | 15 |
-| Reflection | Specific Docker learning, verification of understanding or a proposed solution, and a meaningful limitation or improvement | 15 |
-| Total | | 100 |
-
-Screenshot evidence must meet the identification and quality requirements in Section 3.
-
 ### Reflection Criteria
 
 | Criterion | Marks |
