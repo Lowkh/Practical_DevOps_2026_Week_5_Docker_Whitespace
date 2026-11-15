@@ -168,7 +168,7 @@ Save regularly throughout the practical.
 
 ### Screenshot Expectations
 
-Each screenshot must show your own work and include your student initials or another identifier to proof work done.
+Each screenshot must show your own work and include your student initials or another identifier that demonstrates the work is your own.
 
 Use your initials consistently throughout the practical. Avoid displaying your full student ID or unrelated personal information unless required by the school.
 
@@ -301,7 +301,7 @@ The remaining 45 minutes are allocated to assessment Parts A and B, your reflect
 2. Run commands in PowerShell unless instructed otherwise.
 3. Compare your actual result with the expected result.
 4. If the result differs, use Section 16 to investigate one check at a time.
-5. Capture the required screenshots while the relevant results are visible, including your initials or another identifier approved by the school in each screenshot.
+5. Capture the required screenshots while the relevant results are visible, including your initials or another identifier that demonstrates the work is your own in each screenshot.
 6. Paste the screenshots under the matching heading in your Word document.
 7. Save your document before continuing.
 
@@ -319,7 +319,7 @@ The learning checkpoint in G5 can be completed with or without AI.
 - [ ] I understand that AI use is optional and that responsibilities apply if I use it.
 - [ ] My Word document is prepared with headings for G1–G6.
 - [ ] I know where to place my screenshot evidence.
-- [ ] I will include my initials or another identifier approved by the school in every screenshot.
+- [ ] I will include my initials or another identifier that demonstrates the work is my own in every screenshot.
 - [ ] I will use my initials in website content and stored messages.
 - [ ] I understand that incomplete work should be documented honestly.
 
@@ -414,7 +414,7 @@ Capture:
 - Successful `docker version` output showing Client and Server information.
 - The successful `hello-world` result.
 
-Include your initials or another identifier approved by the school in every screenshot. Display your initials again before rerunning a check if needed.
+Include your initials or another identifier that demonstrates the work is your own in every screenshot. Display your initials again before rerunning a check if needed.
 
 Place the screenshots under G1 in your Word document.
 
@@ -491,7 +491,7 @@ Capture:
 - The workspace folders.
 - The image listing showing `nginx` with the `alpine` tag.
 
-Include your initials or another identifier approved by the school in every screenshot. Place the screenshots under G2.
+Include your initials or another identifier that demonstrates the work is your own in every screenshot. Place the screenshots under G2.
 
 ---
 
@@ -547,7 +547,7 @@ Capture:
 
 For the browser evidence, arrange PowerShell beside the browser. Keep your initials and the relevant container command or listing visible alongside the page.
 
-Include your initials or another identifier approved by the school in every screenshot. Place the screenshots under G3.
+Include your initials or another identifier that demonstrates the work is your own in every screenshot. Place the screenshots under G3.
 
 ---
 
@@ -626,7 +626,7 @@ Capture enough output to show:
 - The existing container started again.
 - The container was removed.
 
-Include your initials or another identifier approved by the school in every screenshot. Place the screenshots under G4.
+Include your initials or another identifier that demonstrates the work is your own in every screenshot. Place the screenshots under G4.
 
 ---
 
@@ -798,7 +798,7 @@ Capture:
 - The running `dop-site` container.
 - The custom webpage with your initials and browser address visible.
 
-Include your initials or another identifier approved by the school in every screenshot. For terminal evidence, keep your identification visible alongside the commands and results.
+Include your initials or another identifier that demonstrates the work is your own in every screenshot. For terminal evidence, keep your identification visible alongside the commands and results.
 
 Place the screenshots under G5.
 
@@ -899,7 +899,7 @@ Capture a sequence showing:
 2. Removal of `dop-store-1`.
 3. The same message read through `dop-store-2`.
 
-Include your initials or another identifier approved by the school in every screenshot, including screenshots of removal or inspection commands.
+Include your initials or another identifier that demonstrates the work is your own in every screenshot, including screenshots of removal or inspection commands.
 
 Place the screenshots under G6.
 
@@ -911,7 +911,7 @@ Complete both parts.
 
 This is a guided application of the skills practised above. Use the supplied steps, but carry out and verify the work yourself.
 
-AI assistance is optional and permitted within the responsibilities in Section 5. Your screenshots must show your own execution and include your initials or another identifier approved by the school.
+AI assistance is optional and permitted within the responsibilities in Section 5. Your screenshots must show your own execution and include your initials or another identifier that demonstrates the work is your own.
 
 ### Part A — Build and Run an Assessment Website
 
@@ -993,7 +993,7 @@ Capture:
 - The running assessment container and port mapping.
 - The webpage with your initials, completed learning sentence and browser address.
 
-Include your initials or another identifier approved by the school in every screenshot. Place the screenshots under Assessment Part A.
+Include your initials or another identifier that demonstrates the work is your own in every screenshot. Place the screenshots under Assessment Part A.
 
 ### Part B — Preserve a Message Across Container Replacement
 
@@ -1054,7 +1054,7 @@ Capture:
 - Removal of the original container.
 - Retrieval of the unchanged message through the replacement container.
 
-Include your initials or another identifier approved by the school in every screenshot, including screenshots of removal or inspection commands.
+Include your initials or another identifier that demonstrates the work is your own in every screenshot, including screenshots of removal or inspection commands.
 
 Place the screenshots under Assessment Part B.
 
@@ -1362,7 +1362,7 @@ Compare significant changes with official documentation.
 
 If an activity remains incomplete within the allocated time:
 
-1. Capture the actual error or current result, including your initials or another identifier approved by the school.
+1. Capture the actual error or current result, including your initials or another identifier that demonstrates the work is your own.
 2. Place it under the relevant activity heading.
 3. Add a brief note identifying the unfinished step.
 4. Acknowledge any AI assistance you used.
@@ -1401,7 +1401,7 @@ A clear record of partial progress is more useful than an unsupported claim of c
 
 ### Document Quality
 
-- [ ] Every screenshot includes my initials or another identifier approved by the school, alongside the relevant work.
+- [ ] Every screenshot includes my initials or another identifier that demonstrates the work is my own, alongside the relevant work.
 - [ ] Screenshots are readable and placed under the correct headings.
 - [ ] Browser addresses and relevant resource names are visible.
 - [ ] Screenshots show my own execution.
