@@ -168,7 +168,7 @@ Save regularly throughout the practical.
 
 ### Screenshot Expectations
 
-Each screenshot must show your own work and include your student initials or another identifier approved by the school.
+Each screenshot must show your own work and include your student initials or another identifier to proof work done.
 
 Use your initials consistently throughout the practical. Avoid displaying your full student ID or unrelated personal information unless required by the school.
 
