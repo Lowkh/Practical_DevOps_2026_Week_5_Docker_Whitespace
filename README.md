@@ -1,37 +1,42 @@
 # Week 5 Whitespace Practical
 ## Docker and Responsible AI Use
 
-A guided, self-directed practical on Docker containers, custom images, persistent storage and the responsible use of AI.
+Welcome to your Week 5 whitespace practical.
+
+In this guided, self-directed session, you will explore Docker containers, build a custom website image and investigate persistent storage.
+
+You may use an AI/LLM tool to support your learning, but AI use is optional. If you choose to use AI, you will practise evaluating its suggestions, verifying results and acknowledging its assistance.
 
 No prior Docker experience is required.
 
-> **Educational use**  
+> Educational use
+>
 > This practical uses simplified examples for learning on an authorised computer. The examples are not production deployment instructions. Use only your own practice resources, follow the school’s policies and review commands before running them.
 
 ---
 
 ## Contents
 
-1. [Learning Outcomes](#1-learning-outcomes)
-2. [Practical Overview](#2-practical-overview)
-3. [Submission Requirements](#3-submission-requirements)
-4. [Working Safely](#4-working-safely)
-5. [Using AI Responsibly](#5-using-ai-responsibly)
-6. [Guided Activities](#guided-activities)
-   - [G1 — Install or Verify Docker Desktop](#6-g1--install-or-verify-docker-desktop)
-   - [G2 — Prepare the Workspace and Download an Image](#7-g2--prepare-the-workspace-and-download-an-image)
-   - [G3 — Run a Containerised Website](#8-g3--run-a-containerised-website)
-   - [G4 — Inspect and Manage a Container](#9-g4--inspect-and-manage-a-container)
-   - [G5 — Build a Custom Website Image](#10-g5--build-a-custom-website-image)
-   - [G6 — Demonstrate Named-Volume Persistence](#11-g6--demonstrate-named-volume-persistence)
-7. [Small Applied Practical Assessment](#12-small-applied-practical-assessment)
-8. [Reflection](#13-reflection)
-9. [AI/LLM Usage Declaration](#14-aillm-usage-declaration)
-10. [Assessment Criteria](#15-assessment-criteria)
-11. [Troubleshooting and Using AI Effectively](#16-troubleshooting-and-using-ai-effectively)
-12. [Final Submission Checklist](#17-final-submission-checklist)
-13. [After Capturing Your Evidence](#18-after-capturing-your-evidence)
-14. [Official Documentation](#official-documentation)
+- [1. Learning Outcomes](#1-learning-outcomes)
+- [2. Practical Overview](#2-practical-overview)
+- [3. Submission Requirements](#3-submission-requirements)
+- [4. Working Safely](#4-working-safely)
+- [5. Optional AI Use and Your Responsibilities](#5-optional-ai-use-and-your-responsibilities)
+- [Guided Activities](#guided-activities)
+- [6. G1 — Install or Verify Docker Desktop](#6-g1--install-or-verify-docker-desktop)
+- [7. G2 — Prepare the Workspace and Download an Image](#7-g2--prepare-the-workspace-and-download-an-image)
+- [8. G3 — Run a Containerised Website](#8-g3--run-a-containerised-website)
+- [9. G4 — Inspect and Manage a Container](#9-g4--inspect-and-manage-a-container)
+- [10. G5 — Build a Custom Website Image](#10-g5--build-a-custom-website-image)
+- [11. G6 — Demonstrate Named-Volume Persistence](#11-g6--demonstrate-named-volume-persistence)
+- [12. Small Applied Practical Assessment](#12-small-applied-practical-assessment)
+- [13. Reflection](#13-reflection)
+- [14. AI/LLM Usage Declaration](#14-aillm-usage-declaration)
+- [15. Assessment Criteria](#15-assessment-criteria)
+- [16. Troubleshooting and Using AI Effectively](#16-troubleshooting-and-using-ai-effectively)
+- [17. Final Submission Checklist](#17-final-submission-checklist)
+- [18. After Capturing Your Evidence](#18-after-capturing-your-evidence)
+- [Official Documentation](#official-documentation)
 
 ---
 
@@ -45,6 +50,9 @@ By the end of this practical, you should be able to:
 4. Inspect, stop, start and remove a practice container.
 5. Build a custom image using a Dockerfile.
 6. Demonstrate that data in a named volume remains available after a container is removed.
+
+If you choose to use an AI/LLM tool during this practical, you should also be able to:
+
 7. Ask an AI/LLM a focused technical question.
 8. Evaluate an AI response for accuracy, suitability and safety.
 9. Verify a suggestion through documentation and your own execution.
@@ -62,7 +70,8 @@ By the end of this practical, you should be able to:
 | Operating environment | Windows with Docker Desktop using Linux containers |
 | Terminal | PowerShell |
 | Text editor | Notepad |
-| Other tools | Web browser, Microsoft Word and an available AI/LLM tool |
+| Other tools | Web browser and Microsoft Word |
+| Optional tool | An AI/LLM tool permitted by the school |
 | Guided activities | G1–G6 |
 | Applied assessment | Parts A and B |
 | Submission | One Word document |
@@ -82,7 +91,7 @@ G3: Run a containerised website
             ↓
 G4: Inspect and manage a container
             ↓
-G5: Build a custom image and evaluate AI assistance
+G5: Build a custom image and check your understanding
             ↓
 G6: Demonstrate named-volume persistence
             ↓
@@ -99,14 +108,14 @@ Finish your reflection, declaration and submission checks
 | G2: Workspace and image preparation | 10 |
 | G3: Run a containerised website | 15 |
 | G4: Inspect and manage a container | 15 |
-| G5: Build a custom image and complete the AI checkpoint | 30 |
+| G5: Build a custom image and complete the learning checkpoint | 30 |
 | G6: Demonstrate persistent data | 20 |
 | Assessment Part A: Custom website | 15 |
 | Assessment Part B: Persistent message | 15 |
 | Reflection, declaration and submission checks | 15 |
 | Total | 180 |
 
-Screenshot capture, troubleshooting and AI consultation are included within these allocations.
+Screenshot capture, troubleshooting and any optional AI consultation are included within these allocations.
 
 > Installation time can vary because of downloads, restarts, compatibility and permissions. Work within the allocated session, use the troubleshooting guidance and document incomplete work honestly.
 
@@ -120,7 +129,7 @@ Submit one Word document containing:
 2. Screenshot evidence for G1–G6.
 3. Screenshot evidence for assessment Parts A and B.
 4. A reflection of approximately 100–150 words.
-5. A brief AI/LLM usage declaration.
+5. A brief AI/LLM usage declaration stating whether you used AI.
 
 No separate report, scripts, source files, command transcript, presentation, video, AI conversation history or ZIP file is required.
 
@@ -188,15 +197,15 @@ Use an ordinary PowerShell window for practical commands. Use elevated permissio
 
 ---
 
-## 5. Using AI Responsibly
+## 5. Optional AI Use and Your Responsibilities
 
-AI use is part of the learning objective, not just a troubleshooting option.
+Using an AI/LLM tool is optional. You may complete this practical using the guide and official documentation without using AI.
 
-During an existing activity, use an available AI/LLM tool at least once to support your understanding or investigation. Section 10 includes a specific opportunity.
+If you choose to use AI, use it to support your understanding or investigation. Review its responses, check important claims and verify suggested actions before relying on them.
 
-You do not need to encounter an error to practise responsible AI use.
+You are responsible for understanding the commands you run and submitting evidence of your own execution, whether or not you use AI.
 
-### Your Workflow
+### Workflow if You Use AI
 
 ```text
 Make a prediction or identify a question
@@ -212,7 +221,7 @@ Verify an important claim
 Acknowledge the assistance
 ```
 
-### Your Responsibilities
+### Responsibilities if You Use AI
 
 | Responsibility | What it means here |
 | :--- | :--- |
@@ -220,13 +229,13 @@ Acknowledge the assistance
 | Protect information | Remove passwords, tokens, student identifiers and unrelated private content before sharing. |
 | Review critically | Treat the response as a suggestion to evaluate. |
 | Understand actions | Check what a command changes and whether it removes data or affects security. |
-| Verify independently | Compare important claims with documentation or your own observed execution. |
+| Verify independently | Compare important claims with documentation and your own observed execution. |
 | Preserve authenticity | Submit evidence from your own work. |
 | Acknowledge assistance | State the tool, purpose and verification method. |
 
 No AI conversation screenshots or transcripts are required.
 
-If AI access is unavailable or restricted, use this guide and official documentation instead. State the limitation briefly in your declaration.
+If you do not use AI, simply state this in your declaration. You do not need to explain or justify that choice.
 
 ---
 
@@ -244,7 +253,7 @@ These activities prepare you for the applied assessment in Section 12.
 | G2 — Workspace and Image | Create the working folders and download `nginx:alpine` | Your workspace is ready and the image is available locally | 10 minutes |
 | G3 — Containerised Website | Run Nginx with a local port mapping | The welcome page is accessible in your browser | 15 minutes |
 | G4 — Container Lifecycle | Inspect logs, stop, start and remove a container | You can distinguish between restarting an existing container and creating a new one | 15 minutes |
-| G5 — Custom Website Image | Create HTML, write a Dockerfile, build an image and evaluate AI assistance | Your custom website displays your initials, and you have checked an AI explanation or an alternative source | 30 minutes |
+| G5 — Custom Website Image | Create HTML, write a Dockerfile, build an image and check your understanding | Your custom website displays your initials, and you have verified an explanation using documentation and execution | 30 minutes |
 | G6 — Named-Volume Persistence | Store a message and retrieve it after replacing a container | The original message remains available through the same named volume | 20 minutes |
 | Total | | | 135 minutes |
 
@@ -260,17 +269,18 @@ The remaining 45 minutes are allocated to assessment Parts A and B, your reflect
 6. Paste the screenshots under the matching heading in your Word document.
 7. Save your document before continuing.
 
-### Responsible AI During the Activities
+### Optional AI Support
 
-Use the AI learning checkpoint in G5 to practise asking, evaluating and verifying.
+You may use AI to explain a command, check a prediction or investigate an unexpected result.
 
-You may also use AI during other activities to explain a command or investigate an unexpected result. Review suggestions before applying them, protect private information and acknowledge the assistance accurately.
+If you do, review suggestions before applying them, protect private information and acknowledge the assistance accurately.
 
-If AI is unavailable or restricted, use this guide and official documentation instead.
+The learning checkpoint in G5 can be completed with or without AI.
 
 ### Before You Begin
 
-- [ ] I have read the safety and responsible AI instructions.
+- [ ] I have read the safety instructions.
+- [ ] I understand that AI use is optional and that responsibilities apply if I use it.
 - [ ] My Word document is prepared with headings for G1–G6.
 - [ ] I know where to place my screenshot evidence.
 - [ ] I will use my initials in website content and stored messages.
@@ -578,7 +588,7 @@ Place the screenshots under G4.
 
 ## 10. G5 — Build a Custom Website Image
 
-Time allocation: 30 minutes, including the AI learning checkpoint.
+Time allocation: 30 minutes, including the learning checkpoint.
 
 ### 10.1 Create the Website
 
@@ -655,11 +665,15 @@ index.html
 | `COPY` | Copies the website into the image |
 | `CMD` | Specifies the default command for containers created from the image |
 
-### 10.4 AI Learning Checkpoint — Understand Before Applying
+### 10.4 Learning Checkpoint — Understand Before Applying
 
 Before building, predict what one Dockerfile instruction does.
 
-Ask an available AI/LLM tool to explain it in context. For example:
+Check your prediction using this guide and the official documentation:
+
+[Dockerfile Reference](https://docs.docker.com/reference/dockerfile/)
+
+If you choose to use an AI/LLM tool, you may also ask it to explain the instruction in context. For example:
 
 ```text
 I am completing a Docker practical using PowerShell on Windows.
@@ -681,20 +695,16 @@ Do not suggest extra software or unrelated changes.
 
 Then:
 
-1. Compare the explanation with this guide or official Docker documentation.
+1. Compare your prediction with the explanation you consulted.
 2. Identify one claim you can check.
 3. Check it through the build and execution below.
-4. Decide whether the response was useful, incomplete or needed correction.
+4. Decide whether the explanation was accurate and useful.
 
-Useful documentation:
-
-[Dockerfile Reference](https://docs.docker.com/reference/dockerfile/)
+If you used AI, compare its explanation with this guide or official documentation rather than relying on the AI response alone.
 
 Keep one example in mind for your reflection.
 
 No additional screenshot or written answer is required for this checkpoint.
-
-If AI is unavailable or restricted, use the guide and documentation instead.
 
 ### 10.5 Build the Image
 
@@ -853,7 +863,7 @@ Complete both parts.
 
 This is a guided application of the skills practised above. Use the supplied steps, but carry out and verify the work yourself.
 
-AI assistance is permitted within the responsibilities in Section 5. Your screenshots must show your own execution.
+AI assistance is optional and permitted within the responsibilities in Section 5. Your screenshots must show your own execution.
 
 ### Part A — Build and Run an Assessment Website
 
@@ -1005,12 +1015,14 @@ Place the screenshots under Assessment Part B.
 Write approximately 100–150 words covering:
 
 1. One Docker concept you understood better through your actual work.
-2. One AI explanation or suggestion you evaluated, how you checked it and what you observed.
+2. How you checked your understanding or resolved an issue using this guide, official documentation or an optional AI tool.
 3. One limitation, safety consideration or improvement you would apply next time.
 
-If AI was unavailable or restricted, explain how you checked your understanding using this guide or official documentation instead.
+If you used AI, include one example of how you evaluated and verified its response.
 
-Use specific examples. A statement such as “AI helped me” does not explain what you evaluated or verified.
+If you did not use AI, describe how you checked an explanation or proposed solution using the guide, official documentation and your own execution.
+
+Use specific examples from your own work.
 
 No additional report is required.
 
@@ -1030,9 +1042,11 @@ Adapt this statement accurately:
 
 Acknowledge other assistance where applicable, including help with reflection wording.
 
-### If AI Was Unavailable or Restricted
+### If You Did Not Use AI
 
-> I did not use an AI/LLM tool because [brief reason]. I used [guide or official documentation] to check my work.
+> I did not use an AI/LLM tool for this practical.
+
+You do not need to explain or justify not using AI.
 
 No prompt transcript or conversation history is required.
 
@@ -1047,7 +1061,7 @@ No prompt transcript or conversation history is required.
 | Guided activity G6 | Original message, named-volume mount and successful retrieval after container replacement | 15 |
 | Assessment Part A | Correct build and execution, required webpage content and clear verification evidence | 20 |
 | Assessment Part B | Original message, container replacement and retrieval from the same named volume | 15 |
-| Reflection | Specific Docker learning, evaluation and verification of assistance, and a meaningful limitation or improvement | 15 |
+| Reflection | Specific Docker learning, verification of understanding or a proposed solution, and a meaningful limitation or improvement | 15 |
 | Total | | 100 |
 
 ### Reflection Criteria
@@ -1055,13 +1069,17 @@ No prompt transcript or conversation history is required.
 | Criterion | Marks |
 | :--- | ---: |
 | Explains Docker learning using a specific practical example | 5 |
-| Explains evaluation and verification of AI advice, or another source where AI was unavailable | 5 |
+| Explains how understanding or a proposed solution was checked using the guide, official documentation or an optional AI tool | 5 |
 | Identifies a meaningful limitation, safety consideration or improvement | 5 |
 | Total | 15 |
 
-Students are assessed on judgement and verification—not on using a particular AI product, accepting its answer or generating more content.
+Students are assessed on their technical work, judgement and verification.
 
-Include the brief AI declaration as a submission requirement.
+Using AI does not earn additional marks, and choosing not to use AI does not reduce the marks available.
+
+If AI is used, its assistance must be acknowledged accurately.
+
+Include the brief AI declaration whether or not you used AI.
 
 Where technical work remains incomplete, submit the actual error and available evidence. Do not claim successful execution that the evidence does not demonstrate.
 
@@ -1071,7 +1089,7 @@ Where technical work remains incomplete, submit the actual error and available e
 
 Unexpected results are part of working with software. Use each result to decide what to check next.
 
-Troubleshooting and AI consultation are included within the existing activity allocations.
+Troubleshooting and any optional AI consultation are included within the existing activity allocations.
 
 ### 16.1 Work Through One Check at a Time
 
@@ -1082,7 +1100,9 @@ Identify the command and expected result
       ↓
 Perform a focused check
       ↓
-Consult this guide, documentation or AI
+Consult this guide or official documentation
+      ↓
+Optionally consult AI and evaluate its response
       ↓
 Review and apply an appropriate change
       ↓
@@ -1102,13 +1122,15 @@ Changing one thing at a time makes it easier to identify what resolved the issue
 docker version
 ```
 
-If the message remains, use the exact error when consulting the official installation guidance or an AI tool.
+If the message remains, use the exact error when consulting the official installation guidance.
+
+You may also consult AI if you choose, following Section 5.
 
 ### 16.3 Client Information Appears, but the Server Connection Fails
 
 1. Open Docker Desktop.
 2. Wait until the engine is ready.
-3. Run `docker version`:
+3. Run:
 
 ```powershell
 docker version
@@ -1239,9 +1261,9 @@ If you correct the setup, repeat the persistence demonstration from the writing 
 
 For a valid replacement demonstration, retrieve the existing note without writing it again after replacement.
 
-### 16.10 Ask AI a Focused Question
+### 16.10 Optional AI Troubleshooting Prompt
 
-Use this prompt if helpful:
+If you choose to consult AI, use a focused prompt such as:
 
 ```text
 I am completing a Docker self-learning practical on Windows.
@@ -1273,7 +1295,7 @@ Remove passwords, tokens, student identifiers and unrelated private information 
 
 ### 16.11 Review Suggestions Before Applying Them
 
-Check:
+Whether a suggestion comes from AI or another source, check:
 
 - Is the command suitable for PowerShell?
 - Does it use your actual folder and resource names?
@@ -1291,7 +1313,7 @@ If an activity remains incomplete within the allocated time:
 1. Capture the actual error or current result.
 2. Place it under the relevant activity heading.
 3. Add a brief note identifying the unfinished step.
-4. Declare any AI assistance.
+4. Acknowledge any AI assistance you used.
 
 A clear record of partial progress is more useful than an unsupported claim of completion.
 
@@ -1318,12 +1340,12 @@ A clear record of partial progress is more useful than an unsupported claim of c
 - [ ] Part A shows the assessment image, running container and completed webpage.
 - [ ] Part B shows persistence across container replacement without rewriting the message.
 
-### Responsible AI and Reflection
+### Reflection and AI Declaration
 
-- [ ] I evaluated and verified at least one AI explanation or suggestion, or recorded why AI was unavailable.
 - [ ] My reflection is approximately 100–150 words.
-- [ ] My reflection includes specific examples.
-- [ ] My AI/LLM declaration describes my actual use.
+- [ ] My reflection includes specific examples of learning and verification.
+- [ ] If I used AI, I evaluated and verified relevant explanations or suggestions.
+- [ ] My AI/LLM declaration accurately states whether and how I used AI.
 
 ### Document Quality
 
